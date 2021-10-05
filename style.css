@@ -1,4 +1,7 @@
-* {margin: 0; padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .wrap {
     width: 100%;
@@ -8,15 +11,18 @@
 
 .main {
     width: 960px;
-    padding: 0 10px;
+    padding: 10px 10px;
     margin: auto;
-    background: #999;
+    background: rgb(255, 255, 255);
     height: 1000px;
 }
 
-.header, .content, .footer {
+.header,
+.content,
+.footer {
     width: 100%;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -24,7 +30,8 @@
 
 img {
     background: #777;
-    width: 100px; height: 100px;
+    width: 100px;
+    height: 100px;
     display: block;
 }
 
@@ -33,9 +40,30 @@ img {
     width: 300px;
     background: #777;
 }
+
 .empty-block-header2 {
     height: 100px;
     width: 350px;
     background: #777;
     text-align: right;
+}
+
+hr {
+    margin: 15px 0px;
+}
+
+.content {
+    width: 980px;
+}
+
+.content-block4 {
+    background: #777;
+    height: 300px;
+    width: 150px;
+    font-size: 10px;
+}
+
+.content-block-main {
+    height: 600px;
+    display: flex;
 }
