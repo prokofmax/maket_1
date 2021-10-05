@@ -33,3 +33,9 @@ img {
     width: 300px;
     background: #777;
 }
+.empty-block-header2 {
+    height: 100px;
+    width: 350px;
+    background: #777;
+    text-align: right;
+}
